@@ -14,8 +14,8 @@ class ThinkFramework extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('topthink/framework' !== $package->getPrettyName()) {
-            throw new InvalidArgumentException('Unable to install this library!');
+        if ('bain2018/framework' !== $package->getPrettyName()) {
+            throw new InvalidArgumentException('Unable to install this library! ThinkFramework '.$package->getPrettyName());
         }
 
         if ($this->composer->getPackage()->getType() !== 'project') {

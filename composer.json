@@ -1,5 +1,5 @@
 {
-    "name": "topthink/think-installer",
+    "name": "bain2018/think-installer",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^1.0||^2.0"
