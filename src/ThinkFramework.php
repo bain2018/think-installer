@@ -61,6 +61,6 @@ class ThinkFramework extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return 'think-framework' === $packageType;
+        return 'bain2018-framework' === $packageType;
     }
 }
